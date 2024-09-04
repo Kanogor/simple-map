@@ -51,6 +51,9 @@ dependencies {
     implementation (libs.androidx.navigation.fragment.ktx)
     implementation (libs.androidx.navigation.ui.ktx)
 
+    //Yandex map
+    implementation ("com.yandex.android:maps.mobile:4.3.1-full")
+
     implementation(libs.androidx.fragment.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
